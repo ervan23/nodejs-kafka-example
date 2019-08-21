@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-kafka-example",
+  "version": "1.0.0",
+  "description": "NodeJS-Apache Kafka example.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ervan23/nodejs-kafka-example.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Apache",
+    "Kafka",
+    "Message",
+    "broker",
+    "queue",
+    "message"
+  ],
+  "author": "Ervan Prastyanto <ervanprastyanto@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ervan23/nodejs-kafka-example/issues"
+  },
+  "homepage": "https://github.com/ervan23/nodejs-kafka-example#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "kafka-node": "^4.1.3"
+  }
+}
